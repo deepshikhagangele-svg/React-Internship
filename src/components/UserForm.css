@@ -1,0 +1,73 @@
+.form-container {
+  width: 60%;
+  margin: 40px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", sans-serif;
+}
+
+.form-title {
+  text-align: center;
+  color: #2f5f2f;
+  font-weight: bold;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="file"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+  margin-bottom: 18px;
+  outline: none;
+}
+
+textarea {
+  resize: vertical;
+}
+
+
+.inline-group {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  margin: 10px 0 20px 0;
+}
+
+.inline-group label {
+  font-weight: normal;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.submit-btn {
+  padding: 12px 25px;
+  background: #2f5f2f;
+  color: white;
+  border: none;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.submit-btn:hover {
+  background: #254c25;
+}
